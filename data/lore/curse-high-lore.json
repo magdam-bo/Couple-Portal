@@ -1,0 +1,18 @@
+{
+  "status": "confirmed",
+  "id": "curse-high-lore",
+  "worldId": "curse-high",
+  "title": "マジカルカース高校の基本設定",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "世界観の概要",
+      "entries": [
+        {
+          "text": "異能力とグレード制度が存在する学園を中心とした世界。",
+          "status": "confirmed"
+        }
+      ]
+    }
+  ]
+}

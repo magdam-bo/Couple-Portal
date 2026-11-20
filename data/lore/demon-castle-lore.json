@@ -1,0 +1,18 @@
+{
+  "status": "confirmed",
+  "id": "demon-castle-lore",
+  "worldId": "demon-castle",
+  "title": "魔王城の基本設定",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "世界観の概要",
+      "entries": [
+        {
+          "text": "魔族や魔王軍などが登場するファンタジー世界。",
+          "status": "confirmed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "confirmed",
+  "id": "idol-lore",
+  "worldId": "idol",
+  "title": "ドル世界の基本設定",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "世界観の概要",
+      "entries": [
+        {
+          "text": "複数の男性アイドルグループが活動する世界。",
+          "status": "confirmed"
+        },
+        {
+          "text": "RevivalとBOUQUETは同じワールドに属する。",
+          "status": "confirmed"
+        }
+      ]
+    }
+  ]
+}
