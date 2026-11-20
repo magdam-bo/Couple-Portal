@@ -1,0 +1,20 @@
+{
+  "status": "confirmed",
+  "id": "rin",
+  "worldId": "idol",
+  "groupIds": [
+    "revival"
+  ],
+  "name": "笹貫 凛",
+  "summary": "作曲の才能を持つRevivalのメンバー。",
+  "profile": {
+    "age": {
+      "text": "19歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "173cm",
+      "status": "confirmed"
+    }
+  }
+}

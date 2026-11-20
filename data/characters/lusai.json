@@ -1,0 +1,51 @@
+{
+  "status": "confirmed",
+  "id": "lusai",
+  "worldId": "curse-high",
+  "groupIds": [],
+  "name": "ルサイ",
+  "summary": "QEDの副部長。お菓子作りが趣味。",
+  "profile": {
+    "age": {
+      "text": "17歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "176cm",
+      "status": "confirmed"
+    },
+    "appearance": {
+      "text": "白髪、黒い目。眼鏡をかけ、髪を下で結んでいる。",
+      "status": "confirmed"
+    }
+  },
+  "personality": {
+    "hobbies": [
+      {
+        "text": "お菓子作り",
+        "status": "confirmed"
+      }
+    ],
+    "likes": [
+      {
+        "text": "パフェ",
+        "status": "confirmed"
+      }
+    ]
+  },
+  "speech": {
+    "features": [
+      {
+        "text": "穏やかな敬語。冗談を言うこともある。",
+        "status": "confirmed"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "characterId": "x",
+      "text": "中学時代に親しくなった。長年、恋情を抱いている。",
+      "status": "confirmed"
+    }
+  ]
+}

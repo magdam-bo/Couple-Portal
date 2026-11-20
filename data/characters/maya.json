@@ -1,0 +1,20 @@
+{
+  "status": "confirmed",
+  "id": "maya",
+  "worldId": "idol",
+  "groupIds": [
+    "revival"
+  ],
+  "name": "藍川 真矢",
+  "summary": "Revivalのメンバー。仲裁役。",
+  "profile": {
+    "age": {
+      "text": "19歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "172cm",
+      "status": "confirmed"
+    }
+  }
+}

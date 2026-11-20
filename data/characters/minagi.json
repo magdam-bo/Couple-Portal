@@ -1,0 +1,22 @@
+{
+  "status": "confirmed",
+  "id": "minagi",
+  "worldId": "idol",
+  "groupIds": [
+    "bouquet"
+  ],
+  "name": "巳凪",
+  "summary": "BOUQUETのメンバー。",
+  "speech": {
+    "firstPerson": {
+      "text": "俺",
+      "status": "confirmed"
+    },
+    "features": [
+      {
+        "text": "呼び捨て。偉そうな「〜だな！」「〜だろう？」という口調。",
+        "status": "confirmed"
+      }
+    ]
+  }
+}

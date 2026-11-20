@@ -1,0 +1,18 @@
+{
+  "status": "confirmed",
+  "id": "albert",
+  "worldId": "demon-castle",
+  "groupIds": [],
+  "name": "アルバート",
+  "summary": "「魔王城」の登場人物。",
+  "profile": {
+    "age": {
+      "text": "19歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "178cm",
+      "status": "confirmed"
+    }
+  }
+}

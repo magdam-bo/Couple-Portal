@@ -1,0 +1,18 @@
+{
+  "status": "confirmed",
+  "id": "edold",
+  "worldId": "demon-castle",
+  "groupIds": [],
+  "name": "エドルド",
+  "summary": "「魔王城」の登場人物。",
+  "profile": {
+    "age": {
+      "text": "23歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "176cm",
+      "status": "confirmed"
+    }
+  }
+}

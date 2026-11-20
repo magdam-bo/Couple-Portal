@@ -1,0 +1,22 @@
+{
+  "status": "confirmed",
+  "id": "teruki",
+  "worldId": "idol",
+  "groupIds": [
+    "bouquet"
+  ],
+  "name": "輝樹",
+  "summary": "BOUQUETのメンバー。",
+  "speech": {
+    "firstPerson": {
+      "text": "僕",
+      "status": "confirmed"
+    },
+    "features": [
+      {
+        "text": "相手を「〇〇さん」と呼び、常に敬語で話す。",
+        "status": "confirmed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "confirmed",
+  "id": "ei",
+  "worldId": "idol",
+  "groupIds": [
+    "revival"
+  ],
+  "name": "桜庭 詠",
+  "summary": "Revivalのリーダー。",
+  "profile": {
+    "age": {
+      "text": "19歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "179cm",
+      "status": "confirmed"
+    }
+  }
+}

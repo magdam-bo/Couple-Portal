@@ -1,0 +1,20 @@
+{
+  "status": "confirmed",
+  "id": "eiji",
+  "worldId": "idol",
+  "groupIds": [
+    "revival"
+  ],
+  "name": "餅岡 栄二",
+  "summary": "Revivalのメンバー。",
+  "profile": {
+    "age": {
+      "text": "19歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "178cm",
+      "status": "confirmed"
+    }
+  }
+}

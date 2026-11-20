@@ -1,0 +1,25 @@
+{
+  "status": "confirmed",
+  "id": "x",
+  "worldId": "curse-high",
+  "groupIds": [],
+  "name": "エックス",
+  "summary": "QEDの部長。熱（冷気）を操作する能力を持つ。",
+  "profile": {
+    "age": {
+      "text": "17歳",
+      "status": "confirmed"
+    },
+    "height": {
+      "text": "180cm",
+      "status": "confirmed"
+    }
+  },
+  "relationships": [
+    {
+      "characterId": "lusai",
+      "text": "中学時代からの親友。深く信頼している。",
+      "status": "confirmed"
+    }
+  ]
+}
