@@ -14,9 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare initial source
-        if: hashFiles('package.json') == '' && hashFiles('portal-source.zip') != ''
-        run: unzip -q -o portal-source.zip
       - uses: actions/setup-node@v4
         with:
           node-version: 22
