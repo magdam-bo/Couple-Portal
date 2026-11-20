@@ -1,0 +1,13 @@
+{
+  "status": "confirmed",
+  "id": "curse-high",
+  "name": "マジカルカース高校",
+  "summary": "異能力とグレード制度が存在する学園を中心とした世界。",
+  "themeColor": "#a798d4",
+  "motif": "magic",
+  "aiNotes": [
+    "未確認の詳細設定を補完しない。",
+    "IF設定と本編の確定設定を区別する。"
+  ],
+  "sortOrder": 1
+}

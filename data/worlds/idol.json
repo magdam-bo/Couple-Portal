@@ -1,0 +1,13 @@
+{
+  "status": "confirmed",
+  "id": "idol",
+  "name": "ドル世界",
+  "summary": "複数の男性アイドルグループが活動する世界。",
+  "themeColor": "#859de8",
+  "motif": "stars",
+  "aiNotes": [
+    "未確認の詳細設定を補完しない。",
+    "IF設定と本編の確定設定を区別する。"
+  ],
+  "sortOrder": 0
+}

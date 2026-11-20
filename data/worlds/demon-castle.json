@@ -1,0 +1,13 @@
+{
+  "status": "confirmed",
+  "id": "demon-castle",
+  "name": "魔王城",
+  "summary": "魔族や魔王軍などが登場するファンタジー世界。",
+  "themeColor": "#c89c75",
+  "motif": "castle",
+  "aiNotes": [
+    "未確認の詳細設定を補完しない。",
+    "IF設定と本編の確定設定を区別する。"
+  ],
+  "sortOrder": 2
+}
