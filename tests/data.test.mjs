@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {loadData,validateReferences} from '../scripts/data.mjs';
+import {schemas} from '../scripts/schema.mjs';
+const db=loadData();
+test('初期3ワールドとドル世界のグループ',()=>{assert.equal(db.worlds.length,3);assert.deepEqual(db.groups.filter(g=>g.worldId==='idol').map(g=>g.name).sort(),['BOUQUET','Revival']);});
+test('存在しない所属とワールドを拒否する',()=>{const copy=structuredClone(db);copy.characters[0].groupIds=['missing'];assert.throws(()=>validateReferences(copy));const other=structuredClone(db);other.characters[0].worldId='missing';assert.throws(()=>validateReferences(other));});
+test('グループをまたぐカップリングを登録できる',()=>{const copy=structuredClone(db);copy.couples.push({id:'cross-group-test',worldId:'idol',status:'draft',name:'テスト用',characterIds:['ei','minagi'],summary:'テスト'});assert.doesNotThrow(()=>validateReferences(copy));});
+test('ワールドをまたぐ人物参照と重複IDを拒否する',()=>{const copy=structuredClone(db);copy.couples[0].characterIds=['ei','lusai'];assert.throws(()=>validateReferences(copy));const dup=structuredClone(db);dup.characters.push(dup.characters[0]);assert.throws(()=>validateReferences(dup));});
+test('項目ごとのIF・仮設定と双方の感情を保持する',()=>{const c=schemas.couples.parse({...db.couples[0],status:'if',perspectives:[{characterId:'eiji',feelings:[{text:'テスト用IF',status:'if'}]},{characterId:'maya',recognition:[{text:'テスト用仮設定',status:'draft'}]}]});assert.equal(c.perspectives[0].feelings[0].status,'if');assert.equal(c.perspectives[1].recognition[0].status,'draft');assert.equal(c.status,'if');});
+test('未登録プロフィールと省略可能な攻め受けを受け入れる',()=>{assert.doesNotThrow(()=>schemas.characters.parse({id:'test',status:'draft',worldId:'idol',groupIds:[],name:'テスト',summary:'テスト用'}));assert.doesNotThrow(()=>schemas.couples.parse({id:'test-pair',status:'draft',worldId:'idol',name:'テスト',characterIds:['ei','rin'],summary:'テスト用'}));});
+test('攻め受けの重複と不正ステータスを拒否する',()=>{const copy=structuredClone(db);copy.couples[0].roles={semeId:'eiji',ukeId:'eiji'};assert.throws(()=>validateReferences(copy));assert.throws(()=>schemas.worlds.parse({...db.worlds[0],status:'unknown'}));});
