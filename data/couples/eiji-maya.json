@@ -1,0 +1,23 @@
+{
+  "status": "confirmed",
+  "id": "eiji-maya",
+  "worldId": "idol",
+  "name": "栄二 × 真矢",
+  "characterIds": [
+    "eiji",
+    "maya"
+  ],
+  "summary": "同居しているRevivalのふたり。",
+  "roles": {
+    "semeId": "eiji",
+    "ukeId": "maya"
+  },
+  "details": {
+    "current": [
+      {
+        "text": "ふたりで同居している。",
+        "status": "confirmed"
+      }
+    ]
+  }
+}

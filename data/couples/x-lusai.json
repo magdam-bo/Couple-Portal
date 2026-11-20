@@ -1,0 +1,43 @@
+{
+  "status": "confirmed",
+  "id": "x-lusai",
+  "worldId": "curse-high",
+  "name": "エックス × ルサイ",
+  "characterIds": [
+    "x",
+    "lusai"
+  ],
+  "summary": "中学時代からの親友。QEDの部長と副部長。",
+  "roles": {
+    "semeId": "x",
+    "ukeId": "lusai"
+  },
+  "details": {
+    "meeting": [
+      {
+        "text": "中学時代、エックスがルサイに声をかけたことから親しくなった。",
+        "status": "confirmed"
+      }
+    ]
+  },
+  "perspectives": [
+    {
+      "characterId": "x",
+      "feelings": [
+        {
+          "text": "ルサイを深く信頼している。",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "characterId": "lusai",
+      "feelings": [
+        {
+          "text": "エックスに長年の恋情を抱いている。",
+          "status": "confirmed"
+        }
+      ]
+    }
+  ]
+}
